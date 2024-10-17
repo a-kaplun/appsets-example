@@ -1,0 +1,12 @@
+annotations:
+  kubeVersion: '>=1.24'
+apiVersion: v2
+appVersion: 5.1.2
+description: Tiny Go webserver that prints os information and HTTP request to output
+name: whoami
+version: 5.1.2
+dependencies:
+  - name: whoami
+    repository: https://cowboysysop.github.io/charts/
+    version: 5.1.2
+    condition: enabled
